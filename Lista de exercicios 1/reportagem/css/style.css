@@ -1,0 +1,64 @@
+#cabecalho{
+    background-color: rgb(9, 6, 39);
+    min-width: 0vw;
+    margin: -8px;
+    min-height: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+#menu{
+    padding-top: 16px;
+    max-width: 250px;
+    display: inline;
+    margin-right: 10px;
+}
+.link{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    margin: 8px;
+}
+.link:hover{
+    transition-delay: 0.2s;
+    border-bottom: 2px solid white;
+}
+#logo{
+    display: inline-flex;
+    width: 150px;
+    height: 50px;
+    padding-left: 8px;
+    padding-bottom: 0px;
+}
+#logoName{
+    color: white;
+    font-size: 22px;
+    align-self: center;
+    margin-left: 5px;
+}
+#content{
+    min-height: 60vw;
+}
+#rodape{
+    background-color: rgb(9, 6, 39);
+    min-width: 0vw;
+    margin: -8px;
+    min-height: 70px;
+    padding-top: 20px;
+    color: white;
+}
+#contato{
+    padding: 5px;
+    display: flex;
+    width: 140px;
+    height: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+#direitos{
+    padding: 8px;
+    margin: auto;
+    text-align: center;
+}
